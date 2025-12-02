@@ -23,6 +23,7 @@ def main():
 
                 length = length // 2
 
+                # Check that first half equals second half
                 if (currNum[length:] == currNum[:length]):
                     sum += j
 
