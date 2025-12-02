@@ -1,7 +1,7 @@
-# AdventOfCode2025
-My attempt at Advent of Code 2025
+# AdventOfCode
+My attempt at Advent of Code
 
 https://adventofcode.com/  
 
-Ordered by day and puzzle  
+Ordered by year day and puzzle  
 Not the most efficient solutions, but I may try and refactor  
