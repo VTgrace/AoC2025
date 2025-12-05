@@ -15,15 +15,14 @@ def main():
                 reading_input_data = False
                 continue
 
+            line = line.strip()
+
             if reading_input_data:
-                ranges.append(line.strip())
+                curr_range = line.split("-")
+                ranges.append(range(int(curr_range[0]), int(curr_range[1])))
             else:
                 for i in ranges:
-                    range = i.split("-")
-
-                    diff = int(range[1]) - int(range[0])
-
-                    if ((int(line)) <= int(range[1]) and (int(line)) >= int(range[0])):
+                    if (int(line) in i):
                         count += 1
                         break
     
